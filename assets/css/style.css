@@ -34,9 +34,12 @@ h1 {
     font-size: 2em;
     text-transform: uppercase;
 }
+h2 {
+    color: rgba(169, 50, 38);
+}
 
 address {
-    color: blueviolet;
+    color: rgba(169, 50, 38);;
 }
 .container {
     max-width: 1000px;

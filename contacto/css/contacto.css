@@ -30,6 +30,8 @@ h3,
 h4 {
     font-weight: 300;
     font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 h1 {
     font-size: 2em;
@@ -37,6 +39,8 @@ h1 {
 }
 h2 {
     color: rgba(169, 50, 38);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 address {

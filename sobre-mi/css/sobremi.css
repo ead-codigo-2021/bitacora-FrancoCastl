@@ -2,8 +2,58 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
+/* Imagen */
+img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 70px;
+}
+.section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5%;
+    border-radius: 70px;
+}
+.box img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+.box .hover {
+    width: 0%;
+    height: 100vh;
+    background-color: rgba(56, 53, 53, 0.568);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .4s all;
+}
+.hover h2 {
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+.box:hover .hover {
+    width: 100%;
+}
 :root {
     --font-family-base: 'Raleway', sans-serif;
     --font-family-alt: 'Roboto Slab', serif;
@@ -19,7 +69,7 @@ html {
     html {
         font-size: 13px;
     }
-    
+/* Cuerpo */    
 }
 body{
     font-family: 'Raleway', 'Roboto Slab', 'Helvetica';
@@ -30,6 +80,8 @@ h3,
 h4 {
     font-weight: 300;
     font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 h1 {
     font-size: 2em;
@@ -37,6 +89,8 @@ h1 {
 }
 h2 {
     color: rgba(169, 50, 38);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 address {
@@ -46,6 +100,7 @@ address {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
 }
 
 /* Detalles Menu */
